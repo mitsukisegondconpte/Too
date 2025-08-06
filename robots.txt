@@ -1,0 +1,18 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://cinelakay.netlify.app/sitemap.xml
+
+# Crawl-delay
+Crawl-delay: 1
+
+# Allow important pages
+Allow: /index.html
+Allow: /styles.css
+Allow: /script.js
+Allow: /assets/
+
+# Disallow unnecessary files
+Disallow: /*.zip
+Disallow: /README.md
