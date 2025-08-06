@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cine Lakay - Streaming Premium | Disney+, Netflix, HBO Max, Prime Video en Haïti</title>
+    <meta name="description" content="Commandez vos comptes streaming premium Disney+, Netflix, HBO Max, Prime Video en Haïti. Plans 500 HTG/mois ou 1000 HTG/3 mois. Livraison rapide 24h, support client garanti, paiement MonCash sécurisé.">
+    <meta name="keywords" content="streaming Haiti, Disney+ Haiti, Netflix Haiti, HBO Max Haiti, Prime Video Haiti, MonCash, streaming premium, comptes streaming, Cine Lakay">
+    <meta name="author" content="Cine Lakay">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="French">
+    <meta name="geo.region" content="HT">
+    <meta name="geo.country" content="Haiti">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://cinelakay.netlify.app/">
+    <meta property="og:title" content="Cine Lakay - Streaming Premium en Haïti">
+    <meta property="og:description" content="Commandez vos comptes streaming premium Disney+, Netflix, HBO Max, Prime Video en Haïti. Plans 500 HTG/mois ou 1000 HTG/3 mois.">
+    <meta property="og:site_name" content="Cine Lakay">
+    <meta property="og:locale" content="fr_HT">
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://cinelakay.netlify.app/">
+    <meta name="twitter:title" content="Cine Lakay - Streaming Premium en Haïti">
+    <meta name="twitter:description" content="Commandez vos comptes streaming premium Disney+, Netflix, HBO Max, Prime Video en Haïti.">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://cinelakay.netlify.app/">
+    
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="particles-bg">
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+    </div>
+
+    <!-- Floating Contact -->
+    <div class="floating-contact">
+        <a href="https://wa.me/50935060742" class="contact-btn whatsapp-btn" target="_blank" title="WhatsApp">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+        <a href="tel:+50935060742" class="contact-btn phone-btn" title="Appeler">
+            <i class="fas fa-phone"></i>
+        </a>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="nav-glass">
+        <div class="container">
+            <div class="nav-content">
+                <div class="logo">
+                    <img src="assets/logo.svg" alt="Cine Lakay Logo" class="logo-img">
+                </div>
+                <div class="nav-links desktop-nav">
+                    <button onclick="scrollToSection('services')">Services</button>
+                    <button onclick="scrollToSection('pricing')">Plans</button>
+                    <button onclick="scrollToSection('order')">Commander</button>
+                    <button onclick="scrollToSection('faq')">FAQ</button>
+                    <button onclick="scrollToSection('privacy')">Privacy</button>
+                    <button onclick="scrollToSection('refund')">Remboursement</button>
+                    <button onclick="scrollToSection('contact')">Contact</button>
+                </div>
+                <div class="mobile-menu-btn">
+                    <i class="fas fa-bars" id="menuIcon"></i>
+                </div>
+            </div>
+            <!-- Mobile Navigation Menu -->
+            <div class="mobile-nav" id="mobileNav">
+                <button onclick="scrollToSection('services')">Services</button>
+                <button onclick="scrollToSection('pricing')">Plans</button>
+                <button onclick="scrollToSection('order')">Commander</button>
+                <button onclick="scrollToSection('faq')">FAQ</button>
+                <button onclick="scrollToSection('privacy')">Privacy</button>
+                <button onclick="scrollToSection('refund')">Remboursement</button>
+                <button onclick="scrollToSection('contact')">Contact</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2 class="hero-title">
+                    <span class="white-text">Streaming</span>
+                    <span class="primary-text">Premium</span>
+                </h2>
+                <p class="hero-subtitle">Accès illimité aux meilleures plateformes de streaming</p>
+                <p class="hero-description">Disney+, Netflix, HBO Max, Prime Video et plus encore</p>
+                <a href="#order" class="btn-primary">Commander Maintenant</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section">
+        <div class="container">
+            <h3 class="section-title">
+                <span class="white-text">Nos</span>
+                <span class="primary-text">Services</span>
+            </h3>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon disney">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>Disney+</h4>
+                    <p>Films et séries Disney, Marvel, Star Wars</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon netflix">
+                        <i class="fab fa-netflix"></i>
+                    </div>
+                    <h4>Netflix</h4>
+                    <p>Contenu original et exclusif mondial</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon hbo">
+                        <i class="fas fa-play-circle"></i>
+                    </div>
+                    <h4>HBO Max</h4>
+                    <p>Séries premium et blockbusters</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon prime">
+                        <i class="fab fa-amazon"></i>
+                    </div>
+                    <h4>Prime Video</h4>
+                    <p>Contenu Amazon Original</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing-section">
+        <div class="container">
+            <h3 class="section-title">
+                <span class="white-text">Nos</span>
+                <span class="primary-text">Plans</span>
+            </h3>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <h4>Plan Mensuel</h4>
+                    <div class="price">
+                        <span class="amount">500 HTG</span>
+                        <span class="period">/mois</span>
+                    </div>
+                    <ul class="features">
+                        <li><i class="fas fa-check"></i> Accès à tous les services</li>
+                        <li><i class="fas fa-check"></i> Streaming HD/4K</li>
+                        <li><i class="fas fa-check"></i> Support 24/7</li>
+                        <li><i class="fas fa-check"></i> Livraison rapide</li>
+                    </ul>
+                    <a href="#order" class="btn-primary">Choisir ce plan</a>
+                </div>
+                <div class="pricing-card popular">
+                    <div class="popular-badge">Populaire</div>
+                    <h4>Plan 3 Mois</h4>
+                    <div class="price">
+                        <span class="amount">1000 HTG</span>
+                        <span class="period">/3 mois</span>
+                    </div>
+                    <ul class="features">
+                        <li><i class="fas fa-check"></i> Accès à tous les services</li>
+                        <li><i class="fas fa-check"></i> Streaming HD/4K</li>
+                        <li><i class="fas fa-check"></i> Support prioritaire 24/7</li>
+                        <li><i class="fas fa-check"></i> Économisez 33%</li>
+                    </ul>
+                    <a href="#order" class="btn-primary">Choisir ce plan</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Order Form Section -->
+    <section id="order" class="order-section">
+        <div class="container">
+            <div class="order-content">
+                <h3 class="section-title">
+                    <span class="white-text">Passer une</span>
+                    <span class="primary-text">Commande</span>
+                </h3>
+                <form class="order-form" id="orderForm">
+                    <div class="form-group">
+                        <label for="service">Service désiré</label>
+                        <select id="service" name="service" required>
+                            <option value="">Sélectionnez un service</option>
+                            <option value="disney">Disney+</option>
+                            <option value="netflix">Netflix</option>
+                            <option value="hbo">HBO Max</option>
+                            <option value="prime">Prime Video</option>
+                            <option value="all">Tous les services</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="plan">Plan</label>
+                        <select id="plan" name="plan" required>
+                            <option value="">Sélectionnez un plan</option>
+                            <option value="monthly">Mensuel - 500 HTG</option>
+                            <option value="quarterly">3 Mois - 1000 HTG</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="customerName">Nom complet</label>
+                        <input type="text" id="customerName" name="customerName" placeholder="Entrez votre nom complet" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="whatsappNumber">Numéro WhatsApp pour livraison</label>
+                        <input type="tel" id="whatsappNumber" name="whatsappNumber" placeholder="+509 XX XX XX XX" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="customerEmail">Email pour livraison</label>
+                        <input type="email" id="customerEmail" name="customerEmail" placeholder="votre@email.com" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="secretCode">Code secret pour confirmation</label>
+                        <input type="text" id="secretCode" name="secretCode" placeholder="Entrez un code secret" required>
+                        <small>Ce code sera utilisé pour confirmer la livraison</small>
+                    </div>
+
+                    <div class="important-message">
+                        <h3><i class="fas fa-exclamation-triangle"></i> MESAJ ENPÒTAN</h3>
+                        <div class="message-content">
+                            <p><strong>⚠️ Lè ou fin fè kòmand lan ak voye kòb la pa MonCash:</strong></p>
+                            <ul>
+                                <li>📸 <strong>FÈ YON KAPTI EKRAN</strong> oswa foto tranzaksyon an</li>
+                                <li>💾 <strong>MEMORIZE MOD PASSE</strong> ou te mete a</li>
+                                <li>📱 <strong>KONSÈVE FOTO A</strong> pou lè nap fè livrezon an</li>
+                                <li>📧 <strong>VOYE FOTO A</strong> ba nou nan WhatsApp oswa email</li>
+                            </ul>
+                            <div class="guarantee-box">
+                                <p><i class="fas fa-clock"></i> <strong>GARANTI 24H:</strong> Si ou pa resevwa kòmand lan nan mwens 24h, ou ka fè demann ranbouman!</p>
+                            </div>
+                            <p class="payment-info">
+                                💳 <strong>Pèmèn pa MonCash:</strong> +509 35 06 0742
+                            </p>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn-primary btn-submit" id="submitBtn">
+                        <i class="fas fa-shopping-cart"></i>
+                        Confirmer la commande
+                    </button>
+                </form>
+
+                <div id="successMessage" class="success-message" style="display: none;">
+                    <i class="fas fa-check-circle"></i>
+                    <h3>Commande envoyée avec succès!</h3>
+                    <p>Vous recevrez vos accès dans les 24h</p>
+                    <button onclick="resetForm()" class="btn-primary">Nouvelle commande</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq-section">
+        <div class="container">
+            <h3 class="section-title">
+                <span class="white-text">Kesyon</span>
+                <span class="primary-text">Souvan</span>
+            </h3>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <i class="fas fa-question-circle"></i>
+                        <h4>Ki kòman mwen ka peye?</h4>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Nou aksepte pèmèn pa MonCash ak Natcash. Voye kòb la nan +509 35 06 0742 ak fè yon kapti ekran pou konfime tranzaksyon an.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <i class="fas fa-question-circle"></i>
+                        <h4>Konbyen tan yo pran pou livraison?</h4>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Ou pral resevwa kont ou yo nan mwens pase 24h apre w fin peye ak voye preuve a. Pifò tan, nou ka fè livrezon an nan mwens pase 6h.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <i class="fas fa-question-circle"></i>
+                        <h4>Si kont lan pa fonksyone?</h4>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Si kont lan gen pwoblèm, ekri nou imedyatman. Nou gen 2h pou rezoud pwoblèm lan oswa nou remète ou kòb ou yo.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <i class="fas fa-question-circle"></i>
+                        <h4>Ki kalite sèvis nou bay?</h4>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Nou bay aksè nan Netflix, Disney+, HBO Max, Prime Video ak anpil lòt sèvis streaming premium yo.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <i class="fas fa-question-circle"></i>
+                        <h4>Èske nou ka chanje mod passe yo?</h4>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Non, pa chanje mod passe yo. Si nou blije chanje yo pou kèk rezon, nou ap avèti ou ak ou pa gen bezoin enkyète ou - ou pap dekonekte.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Privacy Policy Section -->
+    <section id="privacy" class="privacy-section">
+        <div class="container">
+            <h3 class="section-title">
+                <span class="white-text">Règleman</span>
+                <span class="primary-text">Privacy</span>
+            </h3>
+            <div class="policy-content">
+                <div class="policy-card">
+                    <h4><i class="fas fa-user-lock"></i> Aksè Kont yo</h4>
+                    <p><strong>RÈG ENPÒTAN:</strong> Kont yo se pou yon sèl moun sèlman. Si nou remake gen plizyè moun k ap sèvi ak menm kont lan nan menm tan an:</p>
+                    <ul>
+                        <li>🚫 Nou ap dekonekte tout moun yo imedyatman</li>
+                        <li>❌ Pa gen rembouman pou sa</li>
+                        <li>⚠️ Kont lan ka bloke definitivman</li>
+                    </ul>
+                </div>
+
+                <div class="policy-card">
+                    <h4><i class="fas fa-key"></i> Chanjman Mod Passe</h4>
+                    <p>Si nou bliye chanje mod passe kont ou an pou kèk rezon sekirite:</p>
+                    <ul>
+                        <li>📧 Nou ap avèti ou imedyatman pa email ak WhatsApp</li>
+                        <li>✅ Ou pa gen bezoin enkyète ou - ou pap dekonekte</li>
+                        <li>🔄 Nou ap bay ou nouvo mod passe a rapidman</li>
+                        <li>🛡️ Sa fèt pou pwoteje sekirite kont lan</li>
+                    </ul>
+                </div>
+
+                <div class="policy-card">
+                    <h4><i class="fas fa-wifi"></i> Dekoneksyon San Rezon</h4>
+                    <p>Si ou dekonekte san ou pa brize okenn règ nou yo:</p>
+                    <ul>
+                        <li>📱 Ekri nou imedyatman nan WhatsApp oswa email</li>
+                        <li>⏰ Nou gen <strong>2H MAKSIMÒM</strong> pou rezoud pwoblèm lan</li>
+                        <li>💰 Si nou pa rezoud li nan 2h, ou gen dwa mande rembouman</li>
+                        <li>🔧 Nou ap travay rapidman pou ranje pwoblèm lan</li>
+                    </ul>
+                </div>
+
+                <div class="policy-card">
+                    <h4><i class="fas fa-shield-alt"></i> Pwoteksyon Done</h4>
+                    <p>Nou pwoteje enfòmasyon ou yo ak sekirite maksimòm:</p>
+                    <ul>
+                        <li>🔐 Done ou yo chife ak pwoteje</li>
+                        <li>❌ Nou pa pataje enfòmasyon ou ak moun lòt</li>
+                        <li>📧 Nou sèlman sèvi ak email ou an pou kominikasyon sèvis la</li>
+                        <li>🗑️ Nou efase enfòmasyon ou apre sèvis lan fini</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Refund Policy Section -->
+    <section id="refund" class="refund-section">
+        <div class="container">
+            <h3 class="section-title">
+                <span class="white-text">Politik</span>
+                <span class="primary-text">Rembouman</span>
+            </h3>
+            <div class="refund-content">
+                <div class="refund-card main-policy">
+                    <h4><i class="fas fa-money-bill-wave"></i> Kondisyon Rembouman</h4>
+                    <p><strong>Nou aksepte demann rembouman nan ka sa yo:</strong></p>
+                    <div class="refund-reasons">
+                        <div class="reason-item valid">
+                            <i class="fas fa-check-circle"></i>
+                            <div>
+                                <h5>Nou pa livraison kont lan nan 24h</h5>
+                                <p>Si ou pa resevwa kont ou an apre 24h</p>
+                            </div>
+                        </div>
+                        <div class="reason-item valid">
+                            <i class="fas fa-check-circle"></i>
+                            <div>
+                                <h5>Kont lan pa fonksyone</h5>
+                                <p>Si kont lan pa konekte oswa gen pwoblèm ak nou pa rezoud nan 2h</p>
+                            </div>
+                        </div>
+                        <div class="reason-item valid">
+                            <i class="fas fa-check-circle"></i>
+                            <div>
+                                <h5>Sèvis la pa jan nou te deklare a</h5>
+                                <p>Si kalite sèvis la pa menm jan ak sa nou te piromèt</p>
+                            </div>
+                        </div>
+                        <div class="reason-item valid">
+                            <i class="fas fa-check-circle"></i>
+                            <div>
+                                <h5>Dekoneksyon san rezon</h5>
+                                <p>Si ou dekonekte san ou pa brize règ nou yo ak nou pa rezoud nan 2h</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="refund-card">
+                    <h4><i class="fas fa-times-circle"></i> Nou PA Bay Rembouman Pou</h4>
+                    <div class="refund-reasons">
+                        <div class="reason-item invalid">
+                            <i class="fas fa-times-circle"></i>
+                            <div>
+                                <h5>Chanjman lespri</h5>
+                                <p>Si ou siplema pa vle sèvis la ankò</p>
+                            </div>
+                        </div>
+                        <div class="reason-item invalid">
+                            <i class="fas fa-times-circle"></i>
+                            <div>
+                                <h5>Brize règ nou yo</h5>
+                                <p>Si ou pataje kont lan ak lòt moun oswa brize règ yo</p>
+                            </div>
+                        </div>
+                        <div class="reason-item invalid">
+                            <i class="fas fa-times-circle"></i>
+                            <div>
+                                <h5>Apre 30 jou</h5>
+                                <p>Demann rembouman apre 30 jou pa akseptab</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="refund-card process">
+                    <h4><i class="fas fa-cogs"></i> Pwosèdi Rembouman</h4>
+                    <div class="process-steps">
+                        <div class="step">
+                            <span class="step-number">1</span>
+                            <div>
+                                <h5>Kontak nou</h5>
+                                <p>Voye nou yon mesaj nan WhatsApp oswa email ak eksplike rezon an</p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <span class="step-number">2</span>
+                            <div>
+                                <h5>Bay preuve yo</h5>
+                                <p>Voye foto tranzaksyon ak kapti ekran pwoblèm lan</p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <span class="step-number">3</span>
+                            <div>
+                                <h5>Evalyasyon nou an</h5>
+                                <p>Nou ap evalye demann lan ak reponn nan mwens pase 2h</p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <span class="step-number">4</span>
+                            <div>
+                                <h5>Rembouman</h5>
+                                <p>Si akseptab, nou remète kòb la nan mwens pase 24h pa MonCash</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="guarantee-section">
+                    <div class="guarantee-badge">
+                        <i class="fas fa-certificate"></i>
+                        <div>
+                            <h4>Garanti Satisfaksyon</h4>
+                            <p>Nou garantir ou satisfaksyon ak sèvis nou an. Si ou gen yon bon rezon, nou ap konsidere demann rembouman ou an jan yo merite.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h3 class="section-title">
+                <span class="white-text">Kontak</span>
+                <span class="primary-text">Nou</span>
+            </h3>
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <i class="fab fa-whatsapp"></i>
+                    <h4>WhatsApp</h4>
+                    <p>+509 35 06 0742</p>
+                    <a href="https://wa.me/50935060742" class="btn-primary">Kontakte nou</a>
+                </div>
+                <div class="contact-card">
+                    <i class="fas fa-phone"></i>
+                    <h4>Telefòn</h4>
+                    <p>+509 36 84 61 33</p>
+                    <a href="tel:+50936846133" class="btn-primary">Rele nou</a>
+                </div>
+                <div class="contact-card">
+                    <i class="fas fa-envelope"></i>
+                    <h4>Email</h4>
+                    <p>djephlymesadieu@gmail.com</p>
+                    <a href="mailto:djephlymesadieu@gmail.com" class="btn-primary">Voye email</a>
+                </div>
+            </div>
+            <div class="support-hours">
+                <h4><i class="fas fa-clock"></i> Lè Sipò a</h4>
+                <p>Nou disponib 24/7 pou reponn kesyon ou yo ak rezoud pwoblèm yo rapidman.</p>
+                <p><strong>Garanti reponn:</strong> Mwens pase 2h pou tout demand sipò</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Schema.org structured data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Cine Lakay",
+        "description": "Service de streaming premium en Haïti - Disney+, Netflix, HBO Max, Prime Video",
+        "url": "https://cinelakay.netlify.app/",
+        "telephone": "+50935060742",
+        "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "HT",
+            "addressRegion": "Haiti"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": "18.9712",
+            "longitude": "-72.2852"
+        },
+        "priceRange": "500-1000 HTG",
+        "paymentAccepted": "MonCash, NatCash",
+        "currenciesAccepted": "HTG",
+        "openingHours": "Mo-Su 00:00-23:59",
+        "serviceArea": {
+            "@type": "Country",
+            "name": "Haiti"
+        },
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Services de Streaming",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Disney+ Premium",
+                        "description": "Accès complet à Disney+ avec contenu Marvel, Star Wars"
+                    }
+                },
+                {
+                    "@type": "Offer", 
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Netflix Premium",
+                        "description": "Streaming Netflix HD/4K avec contenu original"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service", 
+                        "name": "HBO Max Premium",
+                        "description": "Accès HBO Max avec séries premium et blockbusters"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Prime Video Premium", 
+                        "description": "Amazon Prime Video avec contenu original"
+                    }
+                }
+            ]
+        }
+    }
+    </script>
+
+    <script src="script.js"></script>
+</body>
+</html>
